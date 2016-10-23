@@ -1,0 +1,17 @@
+node_modules
+karma_reports
+.idea
+*.orig
+*.log
+
+#minimized files
+app.min.js
+app.min.js.map
+app_concat.js
+app_concat.js.map
+frameworks.js
+gir_css_concat.css
+index-non-min.html
+*.sublime-workspace
+*.js
+typings
