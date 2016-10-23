@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { CarPartsComponent } from '../car-parts/car-parts.component';
+import { Component } from '@angular/core'
+import { CarPartsComponent } from '../car-parts/car-parts.component'
 
 @Component({
   selector: 'my-app',

@@ -1,10 +1,18 @@
 <p>There are {{totalCarParts()}} total parts in stock.</p>
 <ul>
-    <li *ngFor="let carPart of carParts">
-    <h2>{{carPart.name | uppercase}}</h2>
-    <p>{{carPart.description}}</p>
-    <p>{{carPart.price | currency:'ARS':true}}</p>
-    <p *ngIf="carPart.inStock > 0">{{carPart.inStock}} in stock</p>
-    <p *ngIf="carPart.inStock == 0">out of stock</p>
-    </li>
+	<li *ngFor="let carPart of carParts">
+		<img [src]="carPart.image">
+		<h2>{{carPart.name | uppercase}}</h2>
+		<p>{{carPart.description}}</p>
+		<p>{{carPart.price | currency:'ARS':true}}</p>
+		<div>
+			<button (click)="downQuantity(carPart)">-</button>
+			<input class="number" [(ngModel)]="carPart.quantity">
+			<button (click)="upQuantity(carPart)">+</button>
+			
+		</div>
+		<p *ngIf="carPart.inStock > 0">{{carPart.inStock}} in stock</p>
+		<p *ngIf="carPart.inStock == 0">out of stock</p>
+		
+	</li>
 </ul>

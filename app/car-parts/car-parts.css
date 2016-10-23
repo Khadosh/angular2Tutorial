@@ -1,0 +1,9 @@
+img {
+  float: left;
+  width: 30px;
+}
+
+.number {
+  width: 20px;
+  text-align: center;
+}

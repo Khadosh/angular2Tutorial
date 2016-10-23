@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+        "id": 1,
+        "name": "Super Tires",
+        "description": "These tires are the very best",
+        "inStock": 5,
+        "price": 50,
+        "image": "/app/images/tires.png",
+        "featured": false,
+        "quantity": 0
+    },
+    {
+        "id": 2,
+        "name": "Reinforced Shocks",
+        "description": "Reinforced Shocks description",
+        "inStock": 2,
+        "price": 20,
+        "image": "/app/images/tires.png",
+        "featured": false,
+        "quantity": 0
+    },
+    {
+        "id": 3,
+        "name": "Some other",
+        "description": "some other description",
+        "inStock": 0,
+        "price": 40,
+        "image": "/app/images/tires.png",
+        "featured": true,
+        "quantity": 0
+    }
+  ]
+}
