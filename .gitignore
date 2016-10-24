@@ -1,6 +1,6 @@
 node_modules
 *.orig
 *.log
-*.js
+app/**/*.js
 *.map
 typings
